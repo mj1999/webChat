@@ -1,0 +1,76 @@
+.display{
+   border-radius: inherit;
+    display: flex;
+    padding: 1%;
+    padding-bottom: 1vh;
+}
+.display:hover{
+    background-color:lightgrey;
+    cursor: pointer;
+}
+.leftBoxUser{
+    width: 15%;
+    height: 90%;
+}
+.leftBoxGroup{
+    width: 25%;
+}
+.rightBox{
+    flex-grow: 1;
+    padding: 1% 3%;
+}
+.dpUser{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.groupImgContainer{
+    display: flex;
+    align-items: center;
+}
+.dpGroup{
+    height: 100%;
+    width: 50%;
+    border-radius: 50%;
+    
+}
+.groupCount{
+    background-color: rgb(154, 152, 152);
+    margin-left: -1vw;
+    border-radius: 50%;
+    padding: 5% 10%;
+    z-index: 2;
+    font-size: large;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(208, 205, 205);
+}
+.dpGroup:nth-child(2n){
+    margin-left: -1vw;
+    transform: scale(0.85);
+    z-index: 1;
+}
+.upperSection,.lowerSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upperLeft{
+    font-size: 1.4rem;
+}
+.upperRight{
+    color: rgb(162, 159, 159);
+}
+.lowerLeft{
+    color: rgb(72, 71, 71);
+    font-size: 0.8rem;
+}
+.lowerRight::after{
+    content: "";
+    border-radius: 50%;
+    background-color: rgb(175, 136, 28);
+    display: inline-block;
+    width: 1vw;
+    height: 2vh;
+    margin-left: -1vw;
+}

@@ -1,0 +1,149 @@
+{   
+    "contacts":[
+        {
+          "id": 1,
+          "username": "john_doe",
+          "displayName": "John Doe",
+          "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+        },
+        {
+          "id": 2,
+          "username": "alice_smith",
+          "displayName": "Alice Smith",
+          "profilePicture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcultivatedculture.com%2Flinkedin-profile-picture%2F&psig=AOvVaw23BukZYx6tGh6aYWGevtVQ&ust=1703627326841000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCNi8mcDIq4MDFQAAAAAdAAAAABAE"
+        },
+        {
+          "id": 3,
+          "username": "bob_jones",
+          "displayName": "Bob Jones",
+          "profilePicture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpreview.keenthemes.com%2Fmetronic-v4%2Ftheme%2Fadmin_1%2Fpage_user_profile_2.html&psig=AOvVaw23BukZYx6tGh6aYWGevtVQ&ust=1703627326841000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCNi8mcDIq4MDFQAAAAAdAAAAABAJ"
+        }],
+    "conversations": [
+      {
+        "id": 1,
+        "type": "user",
+        "participants": [ {
+            "id": 1,
+            "username": "john_doe",
+            "displayName": "John Doe",
+            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+          }],
+        "messages": [
+          {"sender": {
+            "id": 1,
+            "username": "john_doe",
+            "displayName": "John Doe",
+            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+          }, "content": "Hey Alice, how's it going?", "timestamp": "2023-01-01T10:00:00"},
+          {"sender": {"me":true}, "content": "Hi John! I'm good, thanks. How about you?", "timestamp": "2023-01-01T10:05:00"},
+          {"sender": {
+            "id": 1,
+            "username": "john_doe",
+            "displayName": "John Doe",
+            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+          }, "content": "I'm doing well too. Any plans for the weekend?", "timestamp": "2023-01-01T10:10:00"},
+          {"sender": {"me":true}, "content": "Not sure yet. Maybe catch a movie. How about you?", "timestamp": "2023-01-01T10:15:00"}
+        ]
+      },
+      {
+        "id": 2,
+        "type": "group",
+        "groupName":"Close Friends",
+        "participants": [{
+            "id": 2,
+            "username": "alice_smith",
+            "displayName": "Alice Smith",
+            "profilePicture": "https://img.fixthephoto.com/blog/images/gallery/news_preview_mob_image__preview_11368.png"},
+            {
+            "id": 3,
+            "username": "bob_jones",
+            "displayName": "Bob Jones",
+            "profilePicture": "https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/people19.png"
+          }],
+        "messages": [
+          {"sender":  {
+          "id": 2,
+          "username": "alice_smith",
+          "displayName": "Alice Smith",
+          "profilePicture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcultivatedculture.com%2Flinkedin-profile-picture%2F&psig=AOvVaw23BukZYx6tGh6aYWGevtVQ&ust=1703627326841000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCNi8mcDIq4MDFQAAAAAdAAAAABAE"
+        }, "content": "Hey team, let's meet tomorrow to discuss the project.", "timestamp": "2023-01-02T14:00:00"},
+          {"sender":  {
+          "id": 3,
+          "username": "bob_jones",
+          "displayName": "Bob Jones",
+          "profilePicture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpreview.keenthemes.com%2Fmetronic-v4%2Ftheme%2Fadmin_1%2Fpage_user_profile_2.html&psig=AOvVaw23BukZYx6tGh6aYWGevtVQ&ust=1703627326841000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCNi8mcDIq4MDFQAAAAAdAAAAABAJ"
+        }, "content": "Sure, I'll be there.", "timestamp": "2023-01-02T14:05:00"},
+          {"sender": {"name":"User","dp":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"}, "content": "Count me in too.", "timestamp": "2023-01-02T14:10:00"},
+          {"sender":  {
+          "id": 2,
+          "username": "alice_smith",
+          "displayName": "Alice Smith",
+          "profilePicture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcultivatedculture.com%2Flinkedin-profile-picture%2F&psig=AOvVaw23BukZYx6tGh6aYWGevtVQ&ust=1703627326841000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCNi8mcDIq4MDFQAAAAAdAAAAABAE"
+        }, "content": "Great! See you all at 10 AM in the conference room.", "timestamp": "2023-01-02T14:15:00"}
+        ]
+      },
+      {
+        "id": 3,
+        "type": "user",
+        "participants": [ {
+            "id": 1,
+            "username": "john_doe",
+            "displayName": "John Doe",
+            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+          }],
+        "messages": [
+          {"sender": {
+            "id": 1,
+            "username": "john_doe",
+            "displayName": "John Doe",
+            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+          }, "content": "Hey Alice, how's it going?", "timestamp": "2023-01-01T10:00:00"},
+          {"sender": {"me":true}, "content": "Hi John! I'm good, thanks. How about you?", "timestamp": "2023-01-01T10:05:00"},
+          {"sender": {
+            "id": 1,
+            "username": "john_doe",
+            "displayName": "John Doe",
+            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+          }, "content": "I'm doing well too. Any plans for the weekend?", "timestamp": "2023-01-01T10:10:00"},
+          {"sender": {"me":true}, "content": "Not sure yet. Maybe catch a movie. How about you?", "timestamp": "2023-01-01T10:15:00"}
+        ]
+      },
+      {
+        "id": 4,
+        "type": "group",
+        "groupName":"OfficeMates and Friends",
+        "participants": [{
+            "id": 2,
+            "username": "alice_smith",
+            "displayName": "Alice Smith",
+            "profilePicture": "https://img.fixthephoto.com/blog/images/gallery/news_preview_mob_image__preview_11368.png"},
+            {
+            "id": 3,
+            "username": "bob_jones",
+            "displayName": "Bob Jones",
+            "profilePicture": "https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/people19.png"
+          }],
+        "messages": [
+          {"sender":  {
+          "id": 2,
+          "username": "alice_smith",
+          "displayName": "Alice Smith",
+          "profilePicture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcultivatedculture.com%2Flinkedin-profile-picture%2F&psig=AOvVaw23BukZYx6tGh6aYWGevtVQ&ust=1703627326841000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCNi8mcDIq4MDFQAAAAAdAAAAABAE"
+        }, "content": "Hey team, let's meet tomorrow to discuss the project.", "timestamp": "2023-01-02T14:00:00"},
+          {"sender":  {
+          "id": 3,
+          "username": "bob_jones",
+          "displayName": "Bob Jones",
+          "profilePicture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpreview.keenthemes.com%2Fmetronic-v4%2Ftheme%2Fadmin_1%2Fpage_user_profile_2.html&psig=AOvVaw23BukZYx6tGh6aYWGevtVQ&ust=1703627326841000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCNi8mcDIq4MDFQAAAAAdAAAAABAJ"
+        }, "content": "Sure, I'll be there.", "timestamp": "2023-01-02T14:05:00"},
+          {"sender": {"name":"User","dp":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"}, "content": "Count me in too.", "timestamp": "2023-01-02T14:10:00"},
+          {"sender":  {
+          "id": 2,
+          "username": "alice_smith",
+          "displayName": "Alice Smith",
+          "profilePicture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcultivatedculture.com%2Flinkedin-profile-picture%2F&psig=AOvVaw23BukZYx6tGh6aYWGevtVQ&ust=1703627326841000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCNi8mcDIq4MDFQAAAAAdAAAAABAE"
+        }, "content": "Great! See you all at 10 AM in the conference room.", "timestamp": "2023-01-02T14:15:00"}
+        ]
+      } 
+      ] 
+  }
