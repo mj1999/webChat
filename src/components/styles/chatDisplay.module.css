@@ -1,5 +1,60 @@
 .display {
     border-radius: inherit;
-    height: 92%;
+    height: 85%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    padding-bottom: 1%;
+    max-height: 90%;
+}
+.messageDisplay{
+    padding: 0.5%;
+    margin: 0.5%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+}
+.myText{
+    align-self: flex-end;
+    background-color: rgba(86, 177, 114, 0.834);
+}
+.othersText{
+    background-color: rgb(22, 150, 241);
+}
+.othersText,.myText{
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 1%;
+    width: fit-content;
+    color: white;
+}
+.createMessage{
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    height: 5%;
+    align-items: center;
+}
+.textBox{
+    width: 88%;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    height: 100%;
+    margin: 0;
+    padding: 0 1%;
+}
+.sendBtn{
+    width: 10%;
+    height: 105%;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    background-color: rgb(96, 161, 96);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 2px solid green;
+    cursor: pointer;
 }

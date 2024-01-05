@@ -3,6 +3,12 @@ import ConversationBox from "./components/ConversationBox";
 import ChatHeader from "./components/ChatHeader";
 import data from "./data.json";
 import { useState } from "react";
+const user =  {
+  "id": 0,
+  "username": "user",
+  "displayName": "User",
+  "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+}
 
 function App() {
   const [conversations,setConversations] = useState(data.conversations)
@@ -23,7 +29,7 @@ function App() {
         )}
       </div>
       <div style={rightBox}><ChatHeader conversation={activeConversation}  />
-      <ChatDisplay/></div>
+      <ChatDisplay user={user} messages={activeConversation.messages} type={activeConversation.type}/></div>
       
     </div>
   );

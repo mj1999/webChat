@@ -35,14 +35,24 @@
             "displayName": "John Doe",
             "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
           }, "content": "Hey Alice, how's it going?", "timestamp": "2023-01-01T10:00:00"},
-          {"sender": {"me":true}, "content": "Hi John! I'm good, thanks. How about you?", "timestamp": "2023-01-01T10:05:00"},
+          {"sender":  {
+        "id": 0,
+        "username": "user",
+        "displayName": "User",
+        "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+      }, "content": "Hi John! I'm good, thanks. How about you?", "timestamp": "2023-01-01T10:05:00"},
           {"sender": {
             "id": 1,
             "username": "john_doe",
             "displayName": "John Doe",
             "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
           }, "content": "I'm doing well too. Any plans for the weekend?", "timestamp": "2023-01-01T10:10:00"},
-          {"sender": {"me":true}, "content": "Not sure yet. Maybe catch a movie. How about you?", "timestamp": "2023-01-01T10:15:00"}
+          {"sender":  {
+        "id": 0,
+        "username": "user",
+        "displayName": "User",
+        "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+      }, "content": "Not sure yet. Maybe catch a movie. How about you?", "timestamp": "2023-01-01T10:15:00"}
         ]
       },
       {
@@ -73,7 +83,12 @@
           "displayName": "Bob Jones",
           "profilePicture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpreview.keenthemes.com%2Fmetronic-v4%2Ftheme%2Fadmin_1%2Fpage_user_profile_2.html&psig=AOvVaw23BukZYx6tGh6aYWGevtVQ&ust=1703627326841000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCNi8mcDIq4MDFQAAAAAdAAAAABAJ"
         }, "content": "Sure, I'll be there.", "timestamp": "2023-01-02T14:05:00"},
-          {"sender": {"name":"User","dp":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"}, "content": "Count me in too.", "timestamp": "2023-01-02T14:10:00"},
+          {"sender": {
+  "id": 0,
+  "username": "user",
+  "displayName": "User",
+  "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+}, "content": "Count me in too.", "timestamp": "2023-01-02T14:10:00"},
           {"sender":  {
           "id": 2,
           "username": "alice_smith",
@@ -98,14 +113,24 @@
             "displayName": "John Doe",
             "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
           }, "content": "Hey Alice, how's it going?", "timestamp": "2023-01-01T10:00:00"},
-          {"sender": {"me":true}, "content": "Hi John! I'm good, thanks. How about you?", "timestamp": "2023-01-01T10:05:00"},
+          {"sender":  {
+            "id": 0,
+            "username": "user",
+            "displayName": "User",
+            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+          }, "content": "Hi John! I'm good, thanks. How about you?", "timestamp": "2023-01-01T10:05:00"},
           {"sender": {
             "id": 1,
             "username": "john_doe",
             "displayName": "John Doe",
             "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
           }, "content": "I'm doing well too. Any plans for the weekend?", "timestamp": "2023-01-01T10:10:00"},
-          {"sender": {"me":true}, "content": "Not sure yet. Maybe catch a movie. How about you?", "timestamp": "2023-01-01T10:15:00"}
+          {"sender":  {
+        "id": 0,
+        "username": "user",
+        "displayName": "User",
+        "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+      }, "content": "Not sure yet. Maybe catch a movie. How about you?", "timestamp": "2023-01-01T10:15:00"}
         ]
       },
       {
@@ -136,7 +161,12 @@
           "displayName": "Bob Jones",
           "profilePicture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpreview.keenthemes.com%2Fmetronic-v4%2Ftheme%2Fadmin_1%2Fpage_user_profile_2.html&psig=AOvVaw23BukZYx6tGh6aYWGevtVQ&ust=1703627326841000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCNi8mcDIq4MDFQAAAAAdAAAAABAJ"
         }, "content": "Sure, I'll be there.", "timestamp": "2023-01-02T14:05:00"},
-          {"sender": {"name":"User","dp":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"}, "content": "Count me in too.", "timestamp": "2023-01-02T14:10:00"},
+          {"sender": {
+  "id": 0,
+  "username": "user",
+  "displayName": "User",
+  "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VNuP3axFW523oct_zMnKzXYzBCvUDB9lGsmIy62-if8jbi5dki1B6GgYg&s"
+}, "content": "Count me in too.", "timestamp": "2023-01-02T14:10:00"},
           {"sender":  {
           "id": 2,
           "username": "alice_smith",
